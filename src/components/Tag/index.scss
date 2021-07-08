@@ -1,0 +1,16 @@
+@import "utils/constant.scss";
+
+.tag-active {
+    background-color: $hover-border-color !important;
+}
+
+.tag-container {
+    background-color: $grey;
+    color           : rgb(119, 119, 119);
+    border-radius   : 4px;
+    font-size       : small;
+    font-weight     : bold;
+    margin          : 8px 8px 0 0;
+    padding         : 4px 8px;
+    cursor          : pointer;
+}

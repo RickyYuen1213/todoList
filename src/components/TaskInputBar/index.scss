@@ -1,0 +1,25 @@
+.bar {
+    &__container {
+        padding         : 32px;
+        background-color: rgb(143, 187, 238);
+        border-radius   : 8px;
+        ;
+    }
+
+    &__input {
+        border-width: 1px;
+        width       : -webkit-fill-available;
+        outline     : none;
+        font-size   : 32pt;
+        padding     : 8px;
+    }
+
+    &__input:focus {
+        border-color: #6cbbf7;
+        box-shadow  : 0 0 0 4px rgba(0, 149, 255, 0.15);
+    }
+
+    &__filters {
+        display: flex;
+    }
+}

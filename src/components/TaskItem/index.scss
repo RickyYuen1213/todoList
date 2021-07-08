@@ -1,0 +1,36 @@
+@import "utils/constant.scss";
+
+.task {
+    &__container {
+        display      : flex;
+        margin       : 12px 32px;
+        border       : 1px solid $border-color;
+        border-radius: 2px;
+        padding      : 8px;
+        position     : relative;
+    }
+
+    &__container:hover {
+        border-color    : $hover-border-color;
+        background-color: $grey;
+    }
+
+    &__text-container {
+        position: relative;
+        width   : 100%;
+    }
+
+    &__input {
+        position        : absolute;
+        inset           : 0;
+        border          : none;
+        outline         : none;
+        width           : 100%;
+        background-color: transparent;
+    }
+
+    &__delete-button {
+        position: absolute;
+        right   : 0;
+    }
+}

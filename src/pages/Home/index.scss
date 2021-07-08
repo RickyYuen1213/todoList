@@ -1,0 +1,7 @@
+@import 'utils/constant.scss';
+
+.root {
+    max-width: $app-max-width;
+    min-width: $app-min-width;
+    margin   : 0 auto;
+}
