@@ -51,6 +51,7 @@ const TaskInputBar = () => {
         <div className="bar__filters">
             {TAGS.map(tag => <Tag
                 id={tag.id}
+                key={tag.id}
                 active={JSON.stringify(filter) === tag.id}
                 onClick={handleClickTag}>
                 {tag.label}

@@ -1,10 +1,8 @@
 import React, { useCallback, useContext} from 'react'
 import { TaskContext } from 'hooks/task/TaskProvider';
-import { isEqual } from 'lodash';
 import './index.scss'
 import { ReactComponent as TickIcon } from 'assets/images/tick.svg'
 import { ReactComponent as DeleteIcon } from 'assets/images/delete.svg'
-import { Task } from 'models/task';
 
 
 const TaskItem = ({ task }) => {
