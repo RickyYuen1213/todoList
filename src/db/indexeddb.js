@@ -26,9 +26,3 @@ export const checkDbExist = async () => {
     })
     return result
 }
-
-export const checkDbExist2 = async dbName => {
-    const isExistDB = (await indexedDB.databases()).map(db => db.name).includes(dbName)
-
-    return !!isExistDB
-}
